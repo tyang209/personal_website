@@ -1,5 +1,9 @@
 ---
 date: 2019-03-22
+title: Tao Bio
+type: static
+layout: bio
+soup_image: images/tao_soup.jpg
 ---
 
 Hi! My name is Tao (pronounced tay-oh {{< audio mp3="tao.mp3" >}}). I'm a Chinese-American comedian currently living in Los Angeles. I'm also currently a CollegeHumor cast member where I both write and perform video sketches online. 

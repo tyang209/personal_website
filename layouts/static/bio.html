@@ -1,0 +1,14 @@
+{{ define "content" }}
+      <main>
+        <div class="container-centered">
+          <div class="row">
+              <div class="col">
+                      <img
+                        src="{{ .Params.soup_image | relURL }}" />      
+              </div>
+              <div class="col">{{.Content}}</div>
+          </div>
+        </div>
+      </main>
+        
+{{ end }}

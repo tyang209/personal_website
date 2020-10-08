@@ -1,8 +1,8 @@
 baseurl = "https://www.tao-yang.com"
 title = "Tao Yang"
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+googleAnalytics = "UA-85282678-1"
+
 
 paginate = 20
 canonifyurls = true
@@ -14,18 +14,18 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Tao Yang"
-    info = "L.A. based comedian. Currently a CollegeHumor Cast Member."
+    info = "L.A. based writer, actor, performer.  Former CollegeHumor Cast Member."
     description = "Tao Yang's personal website"
+    title = "Tao Yang"
     keywords = "blog,personal,comedy,sketch,college humor,improv"
     avatarurl = "/images/avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Hello!"
 
-    hidecredits = false
-    hidecopyright = false
+    hidecredits = true
+    hidecopyright = true
 
     rtl = false
 
@@ -44,18 +44,46 @@ pygmentscodefencesguesssyntax = true
     name = "Email"
     icon = "fas fa-envelope fa-2x"
     weight = 2
-    url = "mailto:tyang209@gmail.com"    
+    url = "mailto:tyang209@gmail.com"
+
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 3
+    url = "https://www.instagram.com/tyang209"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin-in fa-2x"
+    weight = 4
+    url = "https://www.linkedin.com/in/tyang209/"    
+
+[[params.social]]
+    name = "IMDB"
+    icon = "fab fa-imdb fa-2x"
+    weight = 5
+    url = "https://www.imdb.com/name/nm7032448/"      
 
 # Menu links
 [[menu.main]]
     name = "Blog"
-    weight = 1
+    weight = 3
     url  = "/posts/"
 [[menu.main]]
-    name = "Bio"
-    weight = 2
-    url = "/bio/"        
-[[menu.main]]
     name = "Videos"
-    weight = 3
+    weight = 1
     url = "/videos/"    
+[[menu.main]]
+    name = "Reels"
+    weight = 2
+    url = "/Reels/"     
+[[menu.main]]
+    name = "Contact"
+    weight = 4
+    url = "/contact/"            
+
+
+# images
+[[resources]]
+  name = "soup"
+  src = "images/tao_soup.jpg"
