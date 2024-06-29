@@ -1,7 +1,6 @@
 baseurl = "https://www.tao-yang.com"
 title = "Tao Yang"
 theme = "hugo-coder"
-googleAnalytics = "UA-85282678-1"
 
 
 paginate = 20
